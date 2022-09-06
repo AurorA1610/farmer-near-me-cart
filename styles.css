@@ -1,0 +1,42 @@
+.heading span {
+  border-bottom: 3px solid #8ec640;
+}
+.products-table {
+  box-shadow: 0 1rem 3rem rgb(168, 167, 167);
+  background-color: rgb(225, 223, 223);
+}
+
+.products-table thead {
+  background-color: #8ec640;
+}
+.products-table tbody tr:hover {
+  background-color: rgb(194, 197, 194);
+}
+.products-table tbody tr:hover th {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.products-table tbody tr:hover .product-price {
+  font-weight: bold;
+}
+.add-btn {
+  background-color: #a2c472;
+  font-weight: 500;
+}
+.add-btn:hover {
+  background-color: #8ec640;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+i {
+  cursor: pointer;
+}
+
+.cart {
+  width: 35%;
+}
+
+.cart-heading {
+  color: rgb(42, 130, 42);
+  font-size: 1.3rem;
+}
